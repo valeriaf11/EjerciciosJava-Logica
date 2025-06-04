@@ -6,7 +6,11 @@ public static void main(String[] args) {
  //Resta resta = new Resta();
  //resta.resta(20.5,55.3,32.7);
 
-    OperacionesFaltantes OperacionesFaltantes = new OperacionesFaltantes();
-    OperacionesFaltantes.multiplicacion(33.5,66.6);
+    //OperacionesFaltantes OperacionesFaltantes = new OperacionesFaltantes();
+    //OperacionesFaltantes.multiplicacion(33.5,66.6);
+
+    Persona persona = new Persona();
+    persona.mayorDeEdad();
+    persona.descansar(false);
     }
 }
