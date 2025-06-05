@@ -12,5 +12,11 @@ public static void main(String[] args) {
     Persona persona = new Persona();
     persona.mayorDeEdad();
     persona.descansar(false);
+    persona.puedeDesayunar(false);
+    persona.puedeEntrenar(true);
+    persona.puedeCocinar(true);
+    persona.salirAComprar(false);
+    persona.limpiarCasa(false);
+
     }
 }
